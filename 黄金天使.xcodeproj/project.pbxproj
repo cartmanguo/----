@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C4751591993A67D00D19BCF /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4751581993A67D00D19BCF /* IntroductionViewController.m */; };
+		4C4751621993A79A00D19BCF /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4751611993A79A00D19BCF /* StyledPageControl.m */; };
 		4C8273DC198FB8DB009E43C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8273DB198FB8DB009E43C7 /* Foundation.framework */; };
 		4C8273DE198FB8DB009E43C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8273DD198FB8DB009E43C7 /* CoreGraphics.framework */; };
 		4C8273E0198FB8DB009E43C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8273DF198FB8DB009E43C7 /* UIKit.framework */; };
@@ -21,6 +23,9 @@
 		4C827401198FB8DB009E43C7 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C827400198FB8DB009E43C7 /* ____Tests.m */; };
 		4C82740C198FBB37009E43C7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C82740B198FBB37009E43C7 /* MenuViewController.m */; };
 		4C82740E198FBB46009E43C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C82740D198FBB46009E43C7 /* MainStoryboard.storyboard */; };
+		4C829847199A473C0033B204 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C829846199A473C0033B204 /* FoodViewController.m */; };
+		4CF4FFBC199643EB002A8680 /* TipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4FFBB199643EB002A8680 /* TipsViewController.m */; };
+		4CF4FFBF199646C4002A8680 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4FFBE199646C4002A8680 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C4751571993A67D00D19BCF /* IntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionViewController.h; sourceTree = "<group>"; };
+		4C4751581993A67D00D19BCF /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewController.m; sourceTree = "<group>"; };
+		4C4751601993A79A00D19BCF /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
+		4C4751611993A79A00D19BCF /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
 		4C8273D8198FB8DB009E43C7 /* 黄金天使.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "黄金天使.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8273DB198FB8DB009E43C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C8273DD198FB8DB009E43C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,12 @@
 		4C82740A198FBB37009E43C7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		4C82740B198FBB37009E43C7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		4C82740D198FBB46009E43C7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4C829845199A473C0033B204 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		4C829846199A473C0033B204 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		4CF4FFBA199643EB002A8680 /* TipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsViewController.h; sourceTree = "<group>"; };
+		4CF4FFBB199643EB002A8680 /* TipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsViewController.m; sourceTree = "<group>"; };
+		4CF4FFBD199646C4002A8680 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4CF4FFBE199646C4002A8680 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +94,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C47515E1993A79A00D19BCF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4C47515F1993A79A00D19BCF /* StyledPageControl */,
+			);
+			name = Vendor;
+			path = "../../../../Downloads/CoreTextStudy-master/Vendor";
+			sourceTree = "<group>";
+		};
+		4C47515F1993A79A00D19BCF /* StyledPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				4C4751601993A79A00D19BCF /* StyledPageControl.h */,
+				4C4751611993A79A00D19BCF /* StyledPageControl.m */,
+			);
+			path = StyledPageControl;
+			sourceTree = "<group>";
+		};
 		4C8273CF198FB8DB009E43C7 = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +145,20 @@
 		4C8273E1198FB8DB009E43C7 /* 黄金天使 */ = {
 			isa = PBXGroup;
 			children = (
+				4C47515E1993A79A00D19BCF /* Vendor */,
 				4C8273EA198FB8DB009E43C7 /* AppDelegate.h */,
 				4C8273EB198FB8DB009E43C7 /* AppDelegate.m */,
 				4C82740D198FBB46009E43C7 /* MainStoryboard.storyboard */,
+				4CF4FFBD199646C4002A8680 /* BaseViewController.h */,
+				4CF4FFBE199646C4002A8680 /* BaseViewController.m */,
 				4C82740A198FBB37009E43C7 /* MenuViewController.h */,
 				4C82740B198FBB37009E43C7 /* MenuViewController.m */,
+				4C4751571993A67D00D19BCF /* IntroductionViewController.h */,
+				4C4751581993A67D00D19BCF /* IntroductionViewController.m */,
+				4CF4FFBA199643EB002A8680 /* TipsViewController.h */,
+				4CF4FFBB199643EB002A8680 /* TipsViewController.m */,
+				4C829845199A473C0033B204 /* FoodViewController.h */,
+				4C829846199A473C0033B204 /* FoodViewController.m */,
 				4C8273ED198FB8DB009E43C7 /* Images.xcassets */,
 				4C8273E2198FB8DB009E43C7 /* Supporting Files */,
 			);
@@ -251,9 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF4FFBC199643EB002A8680 /* TipsViewController.m in Sources */,
+				4C4751591993A67D00D19BCF /* IntroductionViewController.m in Sources */,
 				4C8273EC198FB8DB009E43C7 /* AppDelegate.m in Sources */,
 				4C82740C198FBB37009E43C7 /* MenuViewController.m in Sources */,
 				4C8273E8198FB8DB009E43C7 /* main.m in Sources */,
+				4CF4FFBF199646C4002A8680 /* BaseViewController.m in Sources */,
+				4C829847199A473C0033B204 /* FoodViewController.m in Sources */,
+				4C4751621993A79A00D19BCF /* StyledPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +501,7 @@
 				4C827406198FB8DB009E43C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C827407198FB8DB009E43C7 /* Build configuration list for PBXNativeTarget "黄金天使Tests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +510,7 @@
 				4C827409198FB8DB009E43C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

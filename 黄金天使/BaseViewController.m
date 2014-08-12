@@ -1,24 +1,18 @@
 //
-//  MenuViewController.m
+//  BaseViewController.m
 //  黄金天使
 //
-//  Created by Cartman on 14-8-4.
+//  Created by Cartman on 14-8-9.
 //  Copyright (c) 2014年 Cartman. All rights reserved.
 //
 
-#import "MenuViewController.h"
+#import "BaseViewController.h"
 
-@interface MenuViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *infoButton;
-@property (weak, nonatomic) IBOutlet UIButton *foodButton;
-@property (weak, nonatomic) IBOutlet UIButton *photosButton;
-@property (weak, nonatomic) IBOutlet UIButton *diaryButton;
-@property (weak, nonatomic) IBOutlet UIButton *healthButton;
-@property (weak, nonatomic) IBOutlet UIButton *walkButton;
+@interface BaseViewController ()
 
 @end
 
-@implementation MenuViewController
+@implementation BaseViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,11 +23,20 @@
     return self;
 }
 
+- (void)setupViewWithImages:(NSArray *)images andTexts:(NSArray *)texts;
+{
+    for (int i = 0; i<_numOfPages; i++)
+    {
+        
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //self.edgesForExtendedLayout = UIRectEdgeNone;
-    
+    self.contentView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    self.contentView.pagingEnabled = YES;
+    [self.view addSubview:self.contentView];
     // Do any additional setup after loading the view.
 }
 
